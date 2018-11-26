@@ -1,1 +1,2 @@
-# shell-for-neuroimaging
+# コマンドライン習得勉強会
+
