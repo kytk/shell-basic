@@ -1,16 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>2019-02-10 コマンドライン習得勉強会</title>
-</head>
+# 脳画像解析のためのコマンドライン習得勉強会
 
-<body>
-
-    <h1>脳画像解析のためのコマンドライン習得勉強会</h1>
-
-    <p>ここは、2019年02月10日に開催予定である<strong>『脳画像解析のためのコマン
+2019年02月10日に開催予定である<strong>『脳画像解析のためのコマン
 ドライン習得勉強会』</strong>の受講者を対象とした情報提供サイトです。新しい情報
-があれば、随時このサイトへ追加していきますので、定期的にアクセスするようにして下さい。</p>
+があれば、随時このサイトへ追加していきますので、定期的にアクセスするようにして下さい。
 
     <h3>● 新着情報 </h3>
 <ul>
