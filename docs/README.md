@@ -10,7 +10,7 @@
 - 2018.12.01: 勉強会用ウェブサイトを立ち上げました。
 
 ## 会場案内
-[オフィス東京](https://www.officetokyo.net/)
+[オフィス東京](https://www.officetokyo.net/){:target="_blank"}
 
 ## チュートリアル当日のお願い
 - 会場は、飲食可能です。しかし、コンピュータを使いますので、コーヒーをキーボードの上にこぼすといった悲劇が起こらないよう、ふたのついた飲み物の持ち込みにご協力ください。昼食は、会場内で召し上がっていただいてかまいません。
@@ -42,12 +42,12 @@
 ## パソコンの持参について
 - 勉強会では、受講者にPCを持参して頂き、実際に操作しながらコマンドラインについて学んでいきます。PCのスペックについては、以下の**推奨条件**を参考にして下さい
 	- Windowsユーザー
-		-Windows 7以降 **64bit版**
-		-メモリ：8GB以上
-		-ハードディスク：100GB以上の空き容量
-		-2ボタン以上のUSBマウス（必須ではありませんが、持っていると便利です）
+		- Windows 7以降 **64bit版**
+		- メモリ：8GB以上
+		- ハードディスク：100GB以上の空き容量
+		- 2ボタン以上のUSBマウス（必須ではありませんが、持っていると便利です）
     
-	- Macユーザー</h4>
+	- Macユーザー
 		- MacOS 10.11(El Captain)以降
 		- メモリ：8GB以上
 		- ハードディスク：100GB以上の空き容量
@@ -74,23 +74,23 @@ FSL, mricron, gitを自前でセットアップ可能なら、自前のMacまた
 - Lin4Neuro仮想マシンのダウンロード
 以下の文書を参考に、ご自分のパソコンに**Lin4Neuro**環境を作成して下さい。
 
-	- Macユーザー：[VirtualboxへのLin4Neuroのインストール-Mac編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Mac_Install.pdf)
-	- Windowsユーザー：[VirtualboxへのLin4Neuroのインストール-Windows編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Win_Install.pdf)
+	- Macユーザー：[VirtualboxへのLin4Neuroのインストール-Mac編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Mac_Install.pdf){:target="_blank"}
+	- Windowsユーザー：[VirtualboxへのLin4Neuroのインストール-Windows編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Win_Install.pdf){:target="_blank"}
 	
 ### (2) 自前の解析環境で参加する場合
 
 - ご自身でMacを操作する方は、下記を参考に、FSL と MRIcronを下記を参考に各自セットアップしてきてください。
         
-	- FSL: [FSLのMacOSへのインストール方法](http://www.nemotos.net/?p=243)
+	- FSL: [FSLのMacOSへのインストール方法](http://www.nemotos.net/?p=243){:target="_blank"}
 
-	- MRIcron: [MRIcronのMacOSへのインストール方法](http://www.nemotos.net/?p=1159)
+	- MRIcron: [MRIcronのMacOSへのインストール方法](http://www.nemotos.net/?p=1159){:target="_blank"}
 
 	
 ## 問い合わせ
 準備がうまくいかない時のために、問い合わせフォームを準備しています
 。こちらからご質問ください。数日以内に担当者から返信させていただきます。
 
-[問い合わせフォーム](https://goo.gl/forms/iE5SCx9GWKIwIreK2)
+[問い合わせフォーム](https://goo.gl/forms/iE5SCx9GWKIwIreK2){:target="_blank"}
 
 
 Copyright(C) 2017-8 脳画像解析勉強会 All Rights Reserved.
