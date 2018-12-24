@@ -1,142 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<meta name="ROBOTS" content="NONE,NOARCHIVE,NOIMAGEINDEX,NOIMAGECLICK">
-<meta name="GOOGLEBOT" content="NOINDEX,NOFOLLOW,NOARCHIVE,NOODP,NOSNIPPET">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Cache-Control" content="no-cache">
-<meta http-equiv="Expires" content="1">
 <head>
-<link rel="shortcut icon" href="img/cbsn.ico" type="image/vnd.microsoft.icon">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>2019-02-10 コマンドライン習得勉強会</title>
-<style type="text/css">
-
-<!--
-body {
-	font: 100%/1.4 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
-    background-image:url(img/bgnd.jpg);
-    background-repeat:repeat;
-	background-attachment:fixed;
-	margin: 0;
-	padding: 0;
-	color: #000;
-}
-
-ul, ol, dl {
-	padding: 0;
-	margin: 0;
-}
-h1, h2, h3, h4, h5, h6 {
-	margin-top: 0px;
-	padding-right: 15px;
-	padding-left: 10px;
-}
-p {
-	margin-top: 0px;
-	padding-right: 15px;
-	padding-left: 35px;
-}
-a img {
-	border: none;
-}
-a:link {
-	color:#00F;
-	text-decoration: underline;
-}
-a:visited {
-	color: #005;
-	text-decoration: underline;
-}
-a:hover, a:active, a:focus {
-	text-decoration: none;
-}
-
-.container {
-	width: 100%;
-	max-width: 1260px;
-	min-width: 780px;
-	background-color: #FFF;
-	margin: 0 auto;
-}
-.header {
-	background-color: #AFEEEE;
-}
-.content {
-	padding: 10px 0;
-	width: 100%;
-	float: right;
-}
-
-.content ul, .content ol { 
-	padding: 0 15px 15px 40px;
-}
-
-ul.nav {
-	list-style: none;
-	border-top: 1px solid #FFF;
-	margin-bottom: 0px;
-}
-ul.nav li {
-	border-bottom: 1px solid #FFF;
-}
-ul.nav a, ul.nav a:visited {
-	padding: 5px 5px 5px 15px;
-	display: block;
-	text-decoration: none;
-	background-color: #7FFFD4;
-	color: #003;
-}
-ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
-	background-color: #1E90FF;
-	color: #FFF;
-}
-
-.footer {
-	padding: 10px 0;
-	background-color: #AFEEEE;
-	position: relative;
-	clear: both;
-	font-size: x-small;
-	text-align: center;
-}
-
-.fltrt {
-	float: right;
-	margin-left: 8px;
-}
-.fltlft {
-	float: left;
-	margin-right: 8px;
-}
-.clearfloat {
-	clear:both;
-	height:0;
-	font-size: 1px;
-	line-height: 0px;
-}
-.container .content p em {
-	font-size: small;
-}
--->
-</style>
 </head>
 
 <body>
-
-<div class="container">
-  <div class="header"><img src="img/banner.png" width="600" height="128" /></div>
-<!--
-  <div class="sidebar1">
-    <ul class="nav">
-      <li><a href="./index.html"><strong>コマンドライン</strong><br />
-      <strong>勉強会の概要</strong></a></li>
-      <li><a href="./shell.html"><strong>コマンドライン</strong><br />
-        <strong>勉強会の詳細</strong></a></li>
-    </ul>
-  </div>
- -->
- <div class="content">
-
 
     <h1>脳画像解析のためのコマンドライン習得勉強会</h1>
 
@@ -285,85 +153,7 @@ FSL, mricron, gitを自前でセットアップ可能なら、自前のMacまた
 
 	</ul>
 
-<!--
-    <h4>（３）勉強会のテキストおよびデータのダウンロード (2018.11.05 追記および修正)</h4>
-    <p>FreeSurferのセットアップが終わった後、テキストおよびデータのダウンロードを行います。Macのセキュリティなどを考えて、ターミナルで作業します。
-
-<ul>
-    <li>Lin4Neuro (Mac上でLin4Neuroを動かす人も含みます) もしくは 自前で環境設定した方は自分自身のMac/Linux からターミナルを起動します。</li>
-    <li>ターミナルに以下をコピー＆ペーストしてください。</li>
-
-<blockquote>
-#Lin4Neuroの方</br>
-<strong>curl -O http://www.lin4neuro.net/fs-workshop/fsws_setup.sh</strong></br>
-<strong>bash fsws_setup.sh</strong>
-</blockquote>
-
-<blockquote>
-#Macで自身でFreeSurfer環境を構築した方</br>
-<strong>curl -O http://www.lin4neuro.net/fs-workshop/fsws_setup_mac.sh</strong></br>
-<strong>bash fsws_setup_mac.sh</strong>
-</blockquote>
-
-<br/>
-そうすると次のようなメッセージが出ます
-<blockquote>
-==========</br>
-データおよびテキストのダウンロードを行います</br>
-UsernameとPasswordは</br>
-受講者メールをご覧ください</br>
-なおパスワードは入力しても表示されません</br>
-Cloning into 'fsws'...</br>
-Username for 'https://github.com': </br>
-==========</br>
-</blockquote>
-
-ここで UsernameとPasswordに、受講者メーリングリストに書いてある内容をタイプします。Passwordは入力しても画面に表示されませんので、気をつけてタイプしてください。
-<br/>
-そうすると、</br>
-
-<blockquote>
-==========</br>
-remote: Enumerating objects: 39, done.</br>
-remote: Counting objects: 100% (39/39), done.</br>
-remote: Compressing objects: 100% (29/29), done.</br>
-==========</br>
-</blockquote>
-
-のような表示となり、データおよびテキストのダウンロードが行われます。ダウンロードは回線速度によりますが、約15分〜45分ほどかかります。
-
-<li>当日のテキスト</li>
-テキストは、ホームディレクトリの中にある <strong>git/fsws/textbook</strong>の中にあります。<strong><font color="#F00">各自、印刷するなり、タブレットに保存するなど、準備してきてください。当日、会場では印刷物は配布いたしません。</font></strong><br />
-なお、Lin4Neuroの方は、以下をターミナルにコピー＆ペーストしていただくことにより、WindowsやMacにご自身で設定した共有フォルダにテキストをコピーすることができます。
-
-<blockquote>
-<strong>
-cp -r ~/git/fsws/textbook /media/sf_share
-</strong>
-</blockquote>
-
-
-</ul>
-
-    <h4>（４）データおよびテキストの更新</h4>
-
-<ul>
-    <li>テキストの追加・修正；データの追加など、今後、テキストなどに修正があった場合には、メーリングリストで周知します。</li>
-その際には、Lin4NeuroやMacのターミナルから以下をタイプしてください。
-
-<blockquote>
-<strong>
-cd ~/git/fsws</br>
-git pull
-</strong>
-</blockquote>
-
-UsernameとPasswordは、受講者の方々にお送りしたメールをご覧ください。
-
-</ul>
--->
-
-    <h3>●問い合わせ</h3>
+    <h3>● 問い合わせ</h3>
     <p>準備がうまくいかない時のために、問い合わせフォームを準備しています
 。こちらからご質問ください。数日以内に担当者から返信させていただきます。<br />
     <a href="https://goo.gl/forms/iE5SCx9GWKIwIreK2" target="_blank">問い合わせ
@@ -373,8 +163,8 @@ UsernameとPasswordは、受講者の方々にお送りしたメールをご覧�
     <br />
 
     <p align="right"><em>Last Update: 2018.12.23</em></p>
-  <!-- end .content --></div>
-  <div class="footer">Copyright(C) 2017-8 脳画像解析勉強会 All Rights Reserved.</div>
-<!-- end .container --></div>
+
+Copyright(C) 2017-8 脳画像解析勉強会 All Rights Reserved.
+
 </body>
 </html>
