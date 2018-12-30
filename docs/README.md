@@ -85,6 +85,26 @@ FSL, mricron, gitを自前でセットアップ可能なら、自前のMacまた
 
 	- MRIcron: [MRIcronのMacOSへのインストール方法](http://www.nemotos.net/?p=1159){:target="_blank"}
 
+###（3）テキストおよびデータのダウンロード
+
+ターミナルから以下のようにタイプしてください。
+
+#### リポジトリのクローン作成
+
+```
+cd
+mkdir git #まだgitディレクトリがない場合
+cd ~/git
+git clone https://github.com/kytk/shell-basic.git
+```
+
+### リポジトリの更新
+
+```
+cd `/git/shell-basic
+git pull
+```
+
 	
 ## 問い合わせ
 準備がうまくいかない時のために、問い合わせフォームを準備しています
