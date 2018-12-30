@@ -1,0 +1,2 @@
+smoothing=10mm
+No lowpass
