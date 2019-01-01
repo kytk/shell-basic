@@ -1,0 +1,6 @@
+fsid	gender	age	mmse	eTIV
+0013	Female	80	30	1230
+0022	Female	61	30	1313
+0048	Male	66	19	1695
+0050	Male	71	20	1461
+0067	Male	67	30	1440
