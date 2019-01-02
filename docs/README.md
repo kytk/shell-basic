@@ -85,7 +85,7 @@ FSL, mricron, gitを自前でセットアップ可能なら、自前のMacまた
 
 	- MRIcron: [MRIcronのMacOSへのインストール方法](http://www.nemotos.net/?p=1159){:target="_blank"}
 
-###（3）テキストおよびデータのダウンロード
+### （3）テキストおよびデータのダウンロード
 
 ターミナルから以下のようにタイプしてください。
 
