@@ -1,0 +1,11 @@
+
+eddy_correct D_subj1 D_subj1_ecc 0
+
+bet D_subj1_ecc D_subj1_brain -f 0.72 -m
+
+dtifit --data=D_subj1            \
+       --out=D_subj1             \
+       --mask=D_subj1_brain_mask \
+       --bvecs=D_subj1.bvec      \
+       --bvals=D_subj1.bval      
+
