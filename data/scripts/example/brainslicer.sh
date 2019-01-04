@@ -6,6 +6,7 @@ set -x
 if [ $# -lt 1 ]; then
   echo "Error! No file is specified!"
   echo "Usage: $0 nifti_file"
+  exit 1
 fi
 
 # 引数から拡張子を取り除いたものを変数 id として代入

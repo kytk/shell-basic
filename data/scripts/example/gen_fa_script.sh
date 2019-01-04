@@ -4,6 +4,7 @@ set -x
 if [ $# -lt 1 ]; then
   echo "Error! No file is specified!"
   echo "Usage: $0 files"
+  exit 1
 fi
 
 for f in "$@"
