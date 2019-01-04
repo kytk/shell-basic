@@ -5,6 +5,7 @@
 があれば、随時このサイトへ追加していきますので、定期的にアクセスするようにして下さい。
 
 ## 新着情報
+- 2019.01.04: MacOSへのdcm2niixのインストール方法についての説明リンクを追記しました。
 - 2019.01.03: 勉強会で使用するデータおよび第1部のテキストをアップロードしました。
 - 2019.01.02: データのダウンロード方法について記載しました。
 - 2018.12.24: ページを大幅に改変しました。
@@ -72,16 +73,16 @@ FSL, mricron, gitを自前でセットアップ可能なら、自前のMacまた
 - Lin4Neuro仮想マシンのダウンロード
 以下の文書を参考に、ご自分のパソコンに**Lin4Neuro**環境を作成して下さい。
 
-	- Macユーザー：[VirtualboxへのLin4Neuroのインストール-Mac編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Mac_Install.pdf){:target="_blank"}
-	- Windowsユーザー：[VirtualboxへのLin4Neuroのインストール-Windows編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Win_Install.pdf){:target="_blank"}
+	- Macユーザー：[VirtualboxへのLin4Neuroのインストール-Mac編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Mac_Install.pdf)
+	- Windowsユーザー：[VirtualboxへのLin4Neuroのインストール-Windows編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Win_Install.pdf)
 	
-### (2) 自前の解析環境で参加する場合
+### (2) 自前のMacOS環境で参加する場合
 
 - ご自身でMacを操作する方は、下記を参考に、FSL と MRIcronを下記を参考に各自セットアップしてきてください。
         
-	- FSL: [FSLのMacOSへのインストール方法](http://www.nemotos.net/?p=243){:target="_blank"}
+	- FSL: [FSLのMacOSへのインストール方法](http://www.nemotos.net/?p=243)
 
-	- MRIcron: [MRIcronのMacOSへのインストール方法](http://www.nemotos.net/?p=1159){:target="_blank"}
+	- MRIcroGL: [MRIcroGL および dcm2niix の MacOSでのセットアップ方法](http://www.nemotos.net/?p=2946)
 
 ### (3) テキストおよびデータのダウンロード
 
@@ -129,13 +130,12 @@ cd ~/git/shell-basic
 git pull
 ```
 
-
 	
 ## 問い合わせ
 準備がうまくいかない時のために、問い合わせフォームを準備しています
 。こちらからご質問ください。数日以内に担当者から返信させていただきます。
 
-[問い合わせフォーム](https://goo.gl/forms/iE5SCx9GWKIwIreK2){:target="_blank"}
+[問い合わせフォーム](https://goo.gl/forms/iE5SCx9GWKIwIreK2)
 
 
 Copyright(C) 2017-8 脳画像解析勉強会 All Rights Reserved.
