@@ -84,6 +84,26 @@ FSL, mricron, gitを自前でセットアップ可能なら、自前のMacまた
 
 	- MRIcroGL: [MRIcroGL および dcm2niix の MacOSでのセットアップ方法](http://www.nemotos.net/?p=2946)
 
+- FSL のセットアップ確認
+
+ターミナルから以下のコマンドをタイプしてください。
+
+```
+imglob
+```
+
+以下の表示がなされていれば、FSLは正しくインストールされています。
+
+> Usage: imglob [-extension/extensions] <list of names>
+>        -extension for one image with full extension
+>        -extensions for image list with full extensions
+
+もし、
+
+> imglob: command not found
+
+という表示が出たら、[FSL で imglob: command not found と出た時の対処方法](http://www.nemotos.net/?p=2964) に従って、問題を解決してください。
+
 ### (3) テキストおよびデータのダウンロード
 
 #### Lin4Neuroで参加する方
