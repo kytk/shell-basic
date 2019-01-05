@@ -1,4 +1,5 @@
-
+dmri=$(remove_ext D_subj1.nii.gz)
+# 以下の行の D_subj1 を $dmri に置き換えてください
 eddy_correct D_subj1 D_subj1_ecc 0
 
 bet D_subj1_ecc D_subj1_brain -f 0.72 -m
