@@ -49,7 +49,7 @@
 		- 2ボタン以上のUSBマウス（必須ではありませんが、持っていると便利です）
     
 	- Macユーザー
-		- MacOS 10.11(El Captain)以降
+		- macOS 10.11(El Captain)以降
 		- メモリ：8GB以上
 		- ハードディスク：100GB以上の空き容量
 		- 2ボタン以上のUSBマウス（必須ではありませんが、持っていると便利です）
@@ -69,7 +69,7 @@
 
 - 自前のMac解析環境またはLinux解析環境でチュートリアルに参加する場合
 
-FSL, mricron, gitを自前でセットアップ可能なら、自前のMacまたはLinuxで参加いただけます。その場合、事前サポートは限られることをご了承ください。セットアップに自信がない場合は、VirtualBox + Lin4Neuro で参加することをお勧めします。
+FSL, MRIcroGL, gitを自前でセットアップ可能なら、自前のMacまたはLinuxで参加いただけます。その場合、事前サポートは限られることをご了承ください。セットアップに自信がない場合は、VirtualBox + Lin4Neuro で参加することをお勧めします。
 
 ### (1) Lin4Neuroを使って参加する場合(推奨)
 - Lin4Neuro仮想マシンのダウンロード
@@ -78,13 +78,13 @@ FSL, mricron, gitを自前でセットアップ可能なら、自前のMacまた
 	- Macユーザー：[VirtualboxへのLin4Neuroのインストール-Mac編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Mac_Install.pdf)
 	- Windowsユーザー：[VirtualboxへのLin4Neuroのインストール-Windows編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Win_Install.pdf)
 	
-### (2) 自前のMacOS環境で参加する場合
+### (2) 自前のmacOS環境で参加する場合
 
-- ご自身でMacを操作する方は、下記を参考に、FSL と MRIcronを下記を参考に各自セットアップしてきてください。
+- ご自身でMacを操作する方は、下記を参考に、FSL と MRIcroGLを下記を参考に各自セットアップしてきてください。
         
-	- FSL: [FSLのMacOSへのインストール方法](http://www.nemotos.net/?p=243)
+	- FSL: [FSLのmacOSへのインストール方法](http://www.nemotos.net/?p=243)
 
-	- MRIcroGL: [MRIcroGL および dcm2niix の MacOSでのセットアップ方法](http://www.nemotos.net/?p=2946)
+	- MRIcroGL: [MRIcroGL および dcm2niix の macOSでのセットアップ方法](http://www.nemotos.net/?p=2946)
 
 - FSL のセットアップ確認
 
@@ -159,6 +159,149 @@ git pull
 
 [問い合わせフォーム](https://goo.gl/forms/iE5SCx9GWKIwIreK2)
 
+
+-----
+
+# Command line workshop for neuroimaging analysis
+
+This is the web page for **"Command line workshop for neuroimaging analysis"**.
+Please prepare your PC with the information below.
+
+## Venue
+- [Office Tokyo](https://www.officetokyo.net/)
+
+## Notes
+- You can bring in beverage and foods and have lunch in the seminar room. Please make sure to bring in the beverage with lids so that you don't mess up your computer.
+
+- The room will open at **08:30 a.m.** If you are concerned about your circumstance, please come earlier and resolve your concerns beforehand.
+- Please register first when you get to the seminar room.
+
+## Timetable
+
+| Time        | Contents                                            |
+| Prep        | pwd, cd, ls, mv, cp, rm, mkdir, rmdir               |
+| 08:30       | Registration open                                   |
+| 09:00-09:05 | Opening                                             |
+| 09:05-10:15 | Session 1: Things to know about UNIX-like OS        |
+| 10:25-12:00 | Session 2: Basic commands for neuroimaging analysis |
+| 12:00-13:00 | -- Lunch --                                         |
+| 13:00-14:50 | Session 3: Text processing                          |
+| 15:00-17:00 | Session 4: Shell scripts                            |
+| 17:00-17:30 | Closing; Q&A                                        |
+
+## Computer to bring 
+- In this seminar, you will learn about command line with your own computer. Recommendations are as follows;
+	- Windows
+		- Windows 7 **64bit Edition** or later
+		- Memory: more than 8GB (You need at least 8GB)
+		- Hard disk: Free space more than 100GB
+    
+	- Mac
+		- macOS 10.11(El Captain) or later
+		- Memory: more than 8GB (You need at least 8GB)
+		- Hard disk: Free space more than 100GB
+    
+
+## Preparation
+
+You have two options for preparation
+
+- Lin4Neuro (Mac/Win)
+
+Lin4Neuro Virtual Machine is provided for this seminar. All software is already setup in this virtual machine. If you are newbie or feel uncomfortable setting up the environment, use Lin4Neuro. You can have VM on either Mac or Windows.
+
+- Mac with FSL, MRIcroGL
+
+If you are able to install FSL and MRIcroGL by yourself, you can participate with your own Mac. 
+
+### (1) Lin4Neuro (recommended)
+- Download Lin4Neuro virtual machine
+Please read the document below (it's written in Japanese) and have **Lin4Neuro** virtual machine on your computer.
+
+	- Mac：[VirtualboxへのLin4Neuroのインストール-Mac編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Mac_Install.pdf)
+	- Windowsユーザー：[VirtualboxへのLin4Neuroのインストール-Windows編-](https://github.com/kytk/shell-basic/raw/master/docs/pdf/L4N_on_Win_Install.pdf)
+	
+### (2) macOS
+
+- If you want to participate with your own Mac, please set up FSL and MRIcroGL with the document below (written in Japanese).
+        
+	- FSL: [FSLのmacOSへのインストール方法](http://www.nemotos.net/?p=243)
+
+	- MRIcroGL: [MRIcroGL および dcm2niix の macOSでのセットアップ方法](http://www.nemotos.net/?p=2946)
+
+- Checking FSL installation
+
+Open terminal and type the following;
+
+```
+imglob
+```
+
+If you see the message below, FSL is installed properly.
+
+> Usage: imglob [-extension/extensions] <list of names>
+>        -extension for one image with full extension
+>        -extensions for image list with full extensions
+
+If you see
+
+> imglob: command not found
+
+then, you need to resolve the problem with the following link [FSL で imglob: command not found と出た時の対処方法](http://www.nemotos.net/?p=2964).
+
+### (3) Download textbook and data
+
+#### Lin4Neuro
+
+- Open terminal and type the following;
+
+```
+cd ~/git
+git clone https://github.com/kytk/shell-basic.git
+```
+
+If you want to update, type the following;
+
+```
+cd ~/git/shell-basic
+git pull
+```
+
+#### Mac
+
+- Open terminal and type the following;
+
+```
+cd ~/git
+```
+
+- If you see an error message like "No such files or directories", make git directory with the following command.
+
+```
+mkdir ~/git
+cd git
+```
+
+- Then re-type the following command:
+
+```
+git clone https://github.com/kytk/shell-basic.git
+```
+
+When you update, type the following:
+
+```
+cd ~/git/shell-basic
+git pull
+```
+
+	
+## Questions
+If you have technical difficulties, please use the inquiry form.
+
+[Inquiry form](https://goo.gl/forms/iE5SCx9GWKIwIreK2)
+
+----
 
 Copyright(C) 2017-8 脳画像解析勉強会 All Rights Reserved.
 
