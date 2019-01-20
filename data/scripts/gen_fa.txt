@@ -1,6 +1,8 @@
 eddy_correct D_subj1 D_subj1_ecc 0
 
-bet D_subj1_ecc D_subj1_brain -f 0.72 -m
+fslroi D_subj1_ecc D_subj1_b0 0 1
+
+bet D_subj1_b0 D_subj1_brain -f 0.3 -m
 
 dtifit --data=D_subj1_ecc        \
        --out=D_subj1             \
