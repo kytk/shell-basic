@@ -15,7 +15,7 @@ do
   #generate mask
   bet ${dmri}_ecc ${dmri}_brain -f 0.72 -m
   #generate FA
-  dtifit --data=${dmri}     		\
+  dtifit --data=${dmri}_ecc    		\
          --out=$dmri			\
          --mask=${dmri}_brain_mask	\
 	 --bvecs=${dmri}.bvec		\
